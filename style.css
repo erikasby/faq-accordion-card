@@ -37,16 +37,21 @@ body {
   width: 32rem;
   background-color: #fff;
   border-radius: 2rem;
+  position: relative;
 }
 
 .card__heading {
+  margin-top: 13rem;
   font-size: 3rem;
+  text-align: center;
+  color: var(--very-dark-desaturated-blue);
 }
 
 .accordion {
   display: flex;
   flex-direction: column;
   padding: 2rem;
+  margin-bottom: 3rem;
 }
 
 .card__input {
@@ -101,10 +106,15 @@ body {
 }
 
 .card__image {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -58%);
   width: 75%;
-  margin: 0 auto;
-  transform: translateY(-60%);
 }
 
-.card__image--woman-mobile {
+.card__image--bg-pattern {
+  position: absolute;
+  top: 11rem;
+  right: 0;
 }
